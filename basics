@@ -1,0 +1,42 @@
+Q1. How can you output “Physics” and “Wallah” in two different lines in C++?
+Solution:
+#include <iostream>
+using namespace std;
+int main()
+{
+    cout<<"Physics"<<endl;
+    cout<<"Wallah";
+    return 0;
+}
+
+Q3. How much space does the following data types take?
+. int
+. bool
+. float
+Solution:
+int - 4 bytes
+bool - 1 byte
+float - 4 byte
+
+Q5. Write a program to find the circumference of a circle with radius 10 in C++.
+Solution:
+#include <iostream>
+using namespace std;
+int main()
+{
+    int r=10;
+    float pi=3.14;
+    float c=2*pi*r;
+    cout<<c;
+    return 0;
+}
+
+
+Q6. How many of these can be a variable name ?
+. 01Pwskills
+. _FLOAT
+. int
+. FLOAT
+. You will succeed
+Solution:
+_FLOAT and FLOAT can be used as a variable name.
